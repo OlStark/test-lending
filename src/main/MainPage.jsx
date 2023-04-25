@@ -1,7 +1,7 @@
 import React from 'react'
 import Desription from './description/Description'
 import {Projects} from './projects/Projects'
-import SignUp from './components/SignUp'
+import Form from './components/Form'
 import Position from './navigation/Position'
 
 const MainPage = () => {
@@ -9,7 +9,7 @@ const MainPage = () => {
     <div className='main_page'>
         <Desription/>
         <Projects/>
-        <SignUp/>
+        <Form/>
         <Position/>
     </div>
   )
