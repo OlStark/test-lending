@@ -1,0 +1,35 @@
+.projects {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.examples {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.example {
+    background-image: url(../../image/h1.jpg);
+    background-size: cover;
+    height: 23rem;
+    margin: 1rem;
+}
+
+.user {
+    position: relative;
+    top: 5%;
+    right: 30%;
+}
+
+.user_icon {
+    width: 4rem;
+    border-radius: 50%;
+    border: solid 1px;
+}
+
+.user_review {
+    position: relative;
+    top: 6rem;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.map {
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+    border: solid 1px;
+    max-width: 80%;
+    
+}
+
+.map_place {
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:0px;
+}
+
+.map_point {
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:14px;
+}
+
+iframe {
+    height:30rem;
+    border: 1px; 
+    position:relative;
+    width: 100%;
+}
